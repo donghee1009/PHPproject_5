@@ -28,9 +28,10 @@
 	background-color: #6600ff;
 	border-radius: 5px;
 	color : white;
+	text-align: center;
 	}
 	#nv{
-	width : 32.5%;
+	width : 30%;
 	height : 100%;
 	border : 1px solid white;
 	border-radius: 5px;
@@ -60,7 +61,7 @@
 	#login{
 	position : absolute;
 	text-align : center;
-	top : 90px;
+	top : 80px;
 	right : 10px;
 	}
 	#loginText{
