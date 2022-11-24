@@ -1,7 +1,7 @@
 <?php
 include ("headerfile.php");
 ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">

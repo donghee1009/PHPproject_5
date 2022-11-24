@@ -33,7 +33,7 @@
 	#nv{
 	width : 30%;
 	height : 100%;
-	border : 1px solid white;
+	border : 1px solid #BBB;
 	border-radius: 5px;
 	display : inline-block;
 	margin-left: 5px;
@@ -75,7 +75,7 @@
 </head>
 <body>
 <header>
-<div id="Dicon"><a href="https://www.dongyang.ac.kr/dongyang/index.do#" ><img src="img/header/dicon.jpg"> </a></div>
+<div id="Dicon"><a href="1_matDefault.php" ><img src="img/header/dicon.jpg"> </a></div>
 <h1>DMU 맛집</h1>
 <section id="login">
 <p id = "loginText"><a href="8_matLogin.php" style="color: black;">로그인</a></p>

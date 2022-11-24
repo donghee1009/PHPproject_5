@@ -1,3 +1,6 @@
+<?php
+include ("headerfile.php");
+?>
 <!doctype html>
 <html lang="ko">
 <head>
