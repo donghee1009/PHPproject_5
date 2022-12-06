@@ -53,7 +53,7 @@ include ("headerfile.php");
         }
         #filebox{
             width: 500px;
-            height: 800px;
+            height: 600px;
             display: inline-block;
             float: left;
         }
@@ -96,6 +96,7 @@ include ("headerfile.php");
             <input type="file" id="Inputimage" name="menufile" accept="image/*">
             <img style="width: 500px;" id="previewImage" src="https://dummyimage.com/500x500/ffffff/000000.png&text=preview+image">
             </div>
+            <input type="submit">
         </form>
     </div>
 </body>
