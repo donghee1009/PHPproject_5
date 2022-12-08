@@ -2,7 +2,7 @@
 function dbconn(){
     $host_name="localhost";
     $db_user_id ="admin";
-    $db_name="login";
+    $db_name="login"; // 테이블 이름
     $db_pw="autoset";
     $connect=@mysqli_connect($host_name, $db_user_id, $db_pw);
     
