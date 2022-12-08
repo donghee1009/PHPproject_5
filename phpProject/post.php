@@ -12,5 +12,5 @@
 
  <script>
  windows.alert('DB로 전송 완료 !');
- location.href='9_matRegister.php'
+ location.href='9_matRegister.php' // php 
  </script>
