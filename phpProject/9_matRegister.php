@@ -49,6 +49,11 @@ include ("headerfile.php");
 </style>
 </head>
 <body>
+  <?php
+      include("dbconnection.php");
+      $connect=dbconn();
+  ?>
+  
   <br><br><br>
   <section class="singupPage">
     <h1>회원가입 페이지</h1> <hr>
@@ -59,7 +64,7 @@ include ("headerfile.php");
   </section>
  
   <section>
-    <form name="login" method="post">
+    <form name="login" action = 'post.php' method="post">
 
       <div style="width: 316px; margin: 0 auto;">
         <input type="text" class = "idbox" name="user_ID" placeholder="아이디(학번)" style="width: 229px;">
@@ -67,7 +72,7 @@ include ("headerfile.php");
         <br><br>
         <input type="password" class = "pwbox" name="user_PW1" placeholder = "비밀번호"><br><br>
         <input type="password" class = "pwbox" name="user_PW2" placeholder = "비밀번호 재확인"><br><br>
-        <input type="button" class = "buttonbox2" name="singup" value="회원가입">
+        <input type="submit" class = "buttonbox2" name="singup" value="회원가입">
       </div>
       </form>
    </section>
