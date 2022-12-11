@@ -10,9 +10,11 @@ include ("headerfile.php");
 	margin-top: 10px;
 	}
     #menuBox{
-       margin: auto;
-       width: 1300px;
-       height: 720px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 720px;
         }
    #line1,#line2{
       width: 1280px;

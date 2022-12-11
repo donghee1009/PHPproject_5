@@ -35,6 +35,7 @@
 	height : 100%;
 	border : 1px solid #BBB;
 	border-radius: 5px;
+	margin: 0;
 	display : inline-block;
 	margin-left: 5px;
 	}
@@ -85,7 +86,7 @@
 </header>
 <nav>
 <section id="nv"><a href="4_matList.php" id="navblock"><p id ="navText">맛집 리스트</p></a></section>
-<section id="nv"><a href="7_matReview.php" id="navblock"><p id ="navText">리뷰</p></a></section>
+<section id="nv"><a href="6_matimg.php" id="navblock"><p id ="navText">리뷰</p></a></section>
 <section id="nv"><a href="3_matreport.php" id="navblock"><p id ="navText">맛집제보</p></a></section>
 </nav>
 </body>
