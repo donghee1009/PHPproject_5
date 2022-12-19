@@ -49,11 +49,6 @@ include ("headerfile.php");
 </style>
 </head>
 <body>
-  <?php
-      include("dbconnection.php");
-      $connect=dbconn();
-  ?>
-  
   <br><br><br>
   <section class="singupPage">
     <h1>회원가입 페이지</h1> <hr>
