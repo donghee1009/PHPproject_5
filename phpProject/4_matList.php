@@ -5,6 +5,9 @@ include ("headerfile.php");
 <html lang="ko">
 <head>
 	<style>
+    p{
+      margin: 0px;
+    }
 	#main{
 	align-items: center;
 	margin-top: 10px;
@@ -26,14 +29,26 @@ include ("headerfile.php");
     text-align: center;
     width: 398px;
     height: 350px;
-    border: 2px solid blue;
     text-align: center;
     float:left;
+    }
+    #kr{
+      border: solid 2px blue;
+    }
+    #jp,#ch,#ff,#bar{
+      border-right: solid 2px blue;
+      border-top: solid 2px blue;
+      border-bottom: solid 2px blue;
+    }
+    #blc{
+      border: solid 2px blue;
+    }
+    #bev{
+      border-bottom: solid 2px blue;
     }
     #bev,#etc{
       width: 398px;
       height: 170px;
-      border: 1px solid blue;
       padding-bottom: 5px;
     }
     #ltext{
