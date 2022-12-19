@@ -59,7 +59,7 @@ include ("headerfile.php");
   </section>
  
   <section>
-    <form name="login" action = 'post.php' method="post">
+    <form name="login" method="post">
 
       <div style="width: 316px; margin: 0 auto;">
         <input type="text" class = "idbox" name="user_ID" placeholder="아이디(학번)" style="width: 229px;">
